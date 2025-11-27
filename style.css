@@ -1,3 +1,16 @@
+#DAVID {
+  border-radius: 15px;
+  background: linear-gradient(to bottom, black, #aaa);
+  transition: 0.3s;
+  img{
+    width: 300px;
+    border-radius: 7px;
+  }
+}
+#DAVID:hover{
+    transform: scale(1.1);
+}
+
 #GRUEL {
     position: relative;
     overflow: hidden;
@@ -130,22 +143,7 @@ background-color : gold;
 #MEUNIER:hover img {
   transform: rotate(360deg);
 }
-#DAVID {
-  border-radius: 15px;
-  background: linear-gradient(to bottom, black, #aaa);
-<<<<<<< HEAD
-  transition: 0.3s;
-=======
->>>>>>> 36bca27d68622ef55781da435d07d0ae5f7ddf80
-  img{
-    width: 300px;
-    border-radius: 7px;
-  }
-}
-<<<<<<< HEAD
-#DAVID:hover{
-    transform: scale(1.1);
-}
+
 
 #BESSON {
     border-color: #548400;
