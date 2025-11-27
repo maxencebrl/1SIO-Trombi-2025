@@ -1,3 +1,22 @@
+#DANGUIN {
+    border: none !important;
+    padding: 10px;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #e40303, /* rouge */
+        #ff8c00, /* orange */
+        #ffed00, /* jaune */
+        #008026, /* vert */
+        #004dff, /* bleu */
+        #750787  /* violet */
+    );
+}
+
+#DANGUIN img {
+    border-radius: 10px;
+}
 #MEUNIER{
   background-color: grey;
   border: 2px solid black;
