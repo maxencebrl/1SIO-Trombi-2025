@@ -1,0 +1,31 @@
+#MAREY_VAIRELLES {
+    background-color: gold;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 6px white;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.5s ease;
+}
+
+/* Effet arc-en-ciel au survol */
+#MAREY_VAIRELLES:hover {
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        purple
+    );
+    color: white;
+}
+
+/* Bouton qui s’enfonce */
+#MAREY_VAIRELLES:active {
+    transform: scale(2);
+    box-shadow: 0 2px white;
+}
