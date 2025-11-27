@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - William Gruel</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .cv-container {
+            display: flex;
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .left-column {
+            width: 30%;
+            background: #214a7a;
+            color: white;
+            padding: 25px;
+        }
+
+        .header h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .left-column h2 {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .left-column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .left-column li {
+            margin: 7px 0;
+        }
+
+        .right-column {
+            width: 70%;
+            padding: 40px;
+        }
+
+        .right-column h2 {
+            color: #214a7a;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+        }
+
+        .edu-item, .job {
+            margin-bottom: 25px;
+        }
+
+        .edu-item h3, .job h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .date {
+            float: right;
+            font-weight: bold;
+            color: #555;
+        }
+
+        a {
+            color: #214a7a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .cv-container {
+                flex-direction: column;
+            }
+
+            .left-column, .right-column {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="cv-container">
+
+        <aside class="left-column">
+            <div class="header">
+                <h1>WILLIAM GRUEL</h1>
+            </div>
+
+            <section class="personal-details">
+                <h2>Personal details</h2>
+                <p><i class="fa fa-user"></i> William Gruel</p>
+                <p><i class="fa fa-envelope"></i> william.gruel@orange.fr</p>
+                <p><i class="fa fa-phone"></i> +33 6 07 88 03 59</p>
+                <p><i class="fa fa-location-dot"></i> 111 rue Laennec, 69008 Lyon - France</p>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML / CSS ●●●●●</li>
+                    <li>Linux proficiency ●●●●○</li>
+                    <li>Java / Javascript ●●●○○</li>
+                    <li>Python / C / C++ ●●○○○</li>
+                    <li>macOS / DOS proficiency ●●○○○</li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>French (native) ●●●●●</li>
+                    <li>English ●●●●○</li>
+                    <li>German ●●●○○</li>
+                    <li>Russian ●●○○○</li>
+                </ul>
+            </section>
+
+            <section class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Programming</li>
+                    <li>Reading</li>
+                    <li>Music</li>
+                    <li>Cinema</li>
+                </ul>
+            </section>
+        </aside>
+
+        <main class="right-column">
+
+            <section class="profile">
+                <h2>Profile</h2>
+                <p>
+                    Currently a student in a BTS program in IT Services for Organizations, I am looking for 
+                    an internship in an IT department in a company in Lyon to put my theoretical knowledge 
+                    into practice and develop my technical skills. Dynamic and motivated, I wish to join a 
+                    team where I can contribute effectively to IT projects.
+                </p>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+
+                <div class="edu-item">
+                    <h3>BTS - IT Services for Organizations (SIO)</h3>
+                    <span class="date">2025 - present</span>
+                    <p>ORT Lyon, Lyon</p>
+                </div>
+
+                <div class="edu-item">
+                    <h3>BETC National Diploma - Digital Systems</h3>
+                    <span class="date">Sep 2022 - Jul 2025</span>
+                    <p>Jacques de Flesselles, Lyon</p>
+                </div>
+            </section>
+
+            <section class="employment">
+                <h2>Employment</h2>
+
+                <div class="job">
+                    <h3>Networking IT Department (DSI)</h3>
+                    <span class="date">2025</span>
+                    <p>LDLC, Lyon</p>
+                    <ul>
+                        <li>Two internships completed this year for a total of seven weeks.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Editorial Department</h3>
+                    <span class="date">2024</span>
+                    <p>LDLC, Limonest</p>
+                    <ul>
+                        <li>One internship completed this year for four weeks.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>DSIC</h3>
+                    <span class="date">2023</span>
+                    <p>SGAMI — Ministry of the Interior, Lyon</p>
+                    <ul>
+                        <li>Two internships completed this year for a total of seven weeks.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="social">
+                <h2>Social Media</h2>
+                <p><strong>Linktree:</strong></p>
+                <a href="https://guns.lol/yukannie" target="_blank">My Linktree</a>
+            </section>
+
+        </main>
+
+    </div>
+</body>
+</html>
